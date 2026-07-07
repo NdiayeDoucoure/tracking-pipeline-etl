@@ -5,18 +5,19 @@ services:
   sftp_server:
     image: atmoz/sftp
     volumes:
-      - ./data/temp_sftp:/home/user_data_office/upload
+      - ./data/temp_sftp:/home/${SFTP_USER}/upload
     ports:
       - "2222:22"
-    command: user_data_office:MotDePasseSecurise2026:1001
+    # L'image Atmoz prend le format utilisateur:mot_de_passe:uid
+    command: ${SFTP_USER}:${SFTP_PASSWORD}:1001
 
   # Entrepôt de données décisionnel (Data Warehouse) basé sur PostgreSQL
   postgres_dwh:
     image: postgres:15
     environment:
-      POSTGRES_USER: ing_data
-      POSTGRES_PASSWORD: PassDwhCbao
-      POSTGRES_DB: dwh_decisionnel
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
     ports:
       - "5432:5432"
     volumes:
