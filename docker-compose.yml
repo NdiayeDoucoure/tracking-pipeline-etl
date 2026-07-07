@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  # Serveur SFTP sécurisé pour simuler le dépôt des logs de l'application
+  sftp_server:
+    image: atmoz/sftp
+    volumes:
+      - ./data/temp_sftp:/home/user_data_office/upload
+    ports:
+      - "2222:22"
+    command: user_data_office:MotDePasseSecurise2026:1001
+
+  # Entrepôt de données décisionnel (Data Warehouse) basé sur PostgreSQL
+  postgres_dwh:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ing_data
+      POSTGRES_PASSWORD: PassDwhCbao
+      POSTGRES_DB: dwh_decisionnel
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

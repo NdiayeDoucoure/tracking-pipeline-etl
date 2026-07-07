@@ -1,0 +1,452 @@
+[
+    {
+        "meta_data": {
+            "transaction_id": 550000,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "sy",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 14:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550001,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": null
+        },
+        "payload": {
+            "action": "ABONNEMENT_PREMIUM",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 13:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550002,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 14:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550002,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": null
+        },
+        "payload": {
+            "action": "ABONNEMENT_PREMIUM",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 11:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550004,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "ciss\u00e9",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "ABONNEMENT_PREMIUM",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 11:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550005,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": -7500,
+            "date_evenement": "2026/07/07 07:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550006,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": null
+        },
+        "payload": {
+            "action": "ABONNEMENT_PREMIUM",
+            "montant": 120000,
+            "date_evenement": "2026/07/07 07:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550007,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "BUSINESS"
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 05:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550008,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 15:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550009,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "ABONNEMENT_PREMIUM",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 07:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550010,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": null
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 07:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550011,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "BUSINESS"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 120000,
+            "date_evenement": "2026/07/07 04:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550012,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 09:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550013,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": "BUSINESS"
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 07:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550014,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "VALIDATION_COMMANDE",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 09:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550015,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "ciss\u00e9",
+            "type_compte": null
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 06:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550016,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "BUSINESS"
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 10:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550017,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": null
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 08:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550018,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "sy",
+            "type_compte": "BUSINESS"
+        },
+        "payload": {
+            "action": "ABONNEMENT_PREMIUM",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 10:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550019,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": null
+        },
+        "payload": {
+            "action": "ABONNEMENT_PREMIUM",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 07:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550020,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "VALIDATION_COMMANDE",
+            "montant": 120000,
+            "date_evenement": "2026/07/07 04:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550021,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "sy",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 10:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550022,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "  ndiaye ",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 10:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550023,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "ciss\u00e9",
+            "type_compte": "BUSINESS"
+        },
+        "payload": {
+            "action": "VALIDATION_COMMANDE",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 15:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550024,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "fall",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "VALIDATION_COMMANDE",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 09:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550025,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 120000,
+            "date_evenement": "2026/07/07 09:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550026,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "sy",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 350000,
+            "date_evenement": "2026/07/07 05:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550027,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "EPARGNE"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 50000,
+            "date_evenement": "2026/07/07 06:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550028,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "DIOP ",
+            "type_compte": "BUSINESS"
+        },
+        "payload": {
+            "action": "AJOUT_PANIER",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 04:07:58"
+        }
+    },
+    {
+        "meta_data": {
+            "transaction_id": 550029,
+            "date_insertion": "2026-07-07"
+        },
+        "user_info": {
+            "nom": "sy",
+            "type_compte": "COURANT"
+        },
+        "payload": {
+            "action": "CLICK_BOUTON",
+            "montant": 15000,
+            "date_evenement": "2026/07/07 09:07:58"
+        }
+    }
+]

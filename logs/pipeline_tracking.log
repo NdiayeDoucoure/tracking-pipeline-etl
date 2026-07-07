@@ -1,0 +1,42 @@
+2026-07-07 14:30:07,920 - INFO - [main.py:31] - ==================================================================
+2026-07-07 14:30:07,936 - INFO - [main.py:32] - 🚀 LANCEMENT DU PIPELINE D'INGESTION ET DE TRACKING MARKETING
+2026-07-07 14:30:07,936 - INFO - [main.py:33] - ==================================================================
+2026-07-07 14:30:07,936 - INFO - [extractor.py:12] - DÉMARRAGE DE L'EXTRACTION - Connexion au serveur SFTP bancaire...
+2026-07-07 14:30:11,199 - INFO - [extractor.py:24] - Connexion SFTP établie avec succès.
+2026-07-07 14:30:11,199 - INFO - [extractor.py:27] - Téléchargement du fichier distant : upload/evenements_app_daily.json
+2026-07-07 14:30:11,217 - INFO - [extractor.py:30] - Extraction réussie. Fichier sauvegardé localement sous : C:\Users\douco\Desktop\tracking-pipeline-etl\data\downloaded_events.json
+2026-07-07 14:30:11,217 - INFO - [extractor.py:42] - Canal SFTP fermé.
+2026-07-07 14:30:11,218 - INFO - [extractor.py:45] - Connexion de transport SSH fermée.
+2026-07-07 14:30:11,219 - INFO - [transformer.py:15] - DÉMARRAGE DES TRANSFORMATIONS - Traitement au scalpel avec Pandas...
+2026-07-07 14:30:11,240 - INFO - [transformer.py:23] - Fichier brut chargé en mémoire : 30 lignes détectées.
+2026-07-07 14:30:11,248 - WARNING - [transformer.py:37] - Gouvernance Data : 1 doublon(s) technique(s) identifié(s) et supprimé(s).
+2026-07-07 14:30:11,250 - ERROR - [transformer.py:50] - Qualité Financière : 1 transaction(s) avec montant négatif détectée(s). Application de la règle de redressement à 0 FCFA.
+2026-07-07 14:30:11,266 - INFO - [transformer.py:69] - Transformations terminées. Données condensées en 14 indicateurs clés.
+2026-07-07 14:30:11,267 - INFO - [loader.py:13] - DÉMARRAGE DU CHARGEMENT - Connexion à l'entrepôt PostgreSQL...
+2026-07-07 14:30:11,373 - INFO - [loader.py:27] - Écriture des indicateurs dans la table 'fact_marketing_tracking'...
+2026-07-07 14:30:11,648 - INFO - [loader.py:35] - Chargement réussi ! La table 'fact_marketing_tracking' a été mise à jour.
+2026-07-07 14:30:11,648 - INFO - [main.py:47] - ==================================================================
+2026-07-07 14:30:11,648 - INFO - [main.py:48] - ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS À 100% - TOUS LES VOYANTS SONT VERTS
+2026-07-07 14:30:11,654 - INFO - [main.py:49] - ==================================================================
+2026-07-07 16:08:08,852 - INFO - [main.py:31] - ==================================================================
+2026-07-07 16:08:08,853 - INFO - [main.py:32] - 🚀 LANCEMENT DU PIPELINE D'INGESTION ET DE TRACKING MARKETING
+2026-07-07 16:08:08,853 - INFO - [main.py:33] - ==================================================================
+2026-07-07 16:08:08,854 - INFO - [extractor.py:12] - DÉMARRAGE DE L'EXTRACTION - Connexion au serveur SFTP bancaire...
+2026-07-07 16:08:11,443 - INFO - [extractor.py:24] - Connexion SFTP établie avec succès.
+2026-07-07 16:08:11,443 - INFO - [extractor.py:27] - Téléchargement du fichier distant : upload/evenements_app_daily.json
+2026-07-07 16:08:11,479 - INFO - [extractor.py:30] - Extraction réussie. Fichier sauvegardé localement sous : C:\Users\douco\Desktop\tracking-pipeline-etl\data\downloaded_events.json
+2026-07-07 16:08:11,480 - INFO - [extractor.py:42] - Canal SFTP fermé.
+2026-07-07 16:08:11,481 - INFO - [extractor.py:45] - Connexion de transport SSH fermée.
+2026-07-07 16:08:11,481 - INFO - [transformer.py:15] - DÉMARRAGE DES TRANSFORMATIONS - Traitement au scalpel avec Pandas...
+2026-07-07 16:08:11,497 - INFO - [transformer.py:23] - Fichier brut chargé en mémoire : 30 lignes détectées.
+2026-07-07 16:08:11,502 - WARNING - [transformer.py:37] - Gouvernance Data : 1 doublon(s) technique(s) identifié(s) et supprimé(s).
+2026-07-07 16:08:11,503 - ERROR - [transformer.py:50] - Qualité Financière : 1 transaction(s) avec montant négatif détectée(s). Application de la règle de redressement à 0 FCFA.
+2026-07-07 16:08:11,517 - INFO - [transformer.py:69] - Transformations terminées. Données condensées en 14 indicateurs clés.
+2026-07-07 16:08:11,518 - INFO - [loader.py:14] - DÉMARRAGE DU CHARGEMENT - Connexion au Data Warehouse PostgreSQL...
+2026-07-07 16:08:11,644 - INFO - [loader.py:28] - Mise à jour de la table de dimension 'dim_actions'...
+2026-07-07 16:08:11,657 - INFO - [loader.py:46] - Récupération des clés générées de la dimension...
+2026-07-07 16:08:11,681 - INFO - [loader.py:63] - Écriture incrémentale des indicateurs dans la table des faits...
+2026-07-07 16:08:11,695 - INFO - [loader.py:71] - Chargement réussi ! Le modèle en étoile (Dimension + Faits) a été mis à jour.
+2026-07-07 16:08:11,695 - INFO - [main.py:47] - ==================================================================
+2026-07-07 16:08:11,695 - INFO - [main.py:48] - ✅ PIPELINE EXÉCUTÉ AVEC SUCCÈS À 100% - TOUS LES VOYANTS SONT VERTS
+2026-07-07 16:08:11,696 - INFO - [main.py:49] - ==================================================================
